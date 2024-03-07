@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изменение текста с кнопкой</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="first">
+        <input type="text" id="input1" placeholder="текст 1">
+    <input type="text" id="input2" placeholder="текст 2">
+    <button onclick="textInInput()">change</button>
+    </div>
+
+    <div class="second">
+        <input type="text" id="input3" oninput="color()">
+    <div id="yellow"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
